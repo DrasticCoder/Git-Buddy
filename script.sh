@@ -30,7 +30,7 @@ elif [ $choice -eq 2 ];then
 
         read -p "Enter commit message : " message
         git commit -m "$message"
-        echo "Commit message added (commit message : $message)"
+        # echo "Commit message added (commit message : $message)"
 
         read -p "Push to remote repository? [Y/N] " choice2
 
