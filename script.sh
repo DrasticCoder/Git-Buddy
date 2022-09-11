@@ -44,7 +44,7 @@ elif [ $choice -eq 2 ];then
             read -p "Push locally? [Y/N] " choice3
 
             if [ "$choice3" = "Y" ]; then
-                git push --force
+                git push
                 echo "Pushed successfully"
             else
                 echo "Not pushed..."
