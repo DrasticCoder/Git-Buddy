@@ -1,7 +1,12 @@
 # !/bin/bash
-
-read -p "Enter 1: To initialize git repository 
-Enter 2: To add files to existing repository" choice
+echo "**************************************************"
+echo "**                                              **"
+echo "**             Welcome to Git-Buddy             **"
+echo "**                                              **"
+echo "**************************************************"
+read -p "|--   Enter 1: To initialize git repository 
+|--   Enter 2: To add files to existing repository
+" choice
 
 if [ $choice -eq 1 ];then
     read -p "Enter path to initialize repository: " path
